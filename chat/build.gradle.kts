@@ -28,6 +28,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx3")
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.0")
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.0.2")
 }
 
 tasks.test {
