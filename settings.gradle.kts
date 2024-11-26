@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "admin"
 include("gateway")
+include("chat")
