@@ -6,9 +6,15 @@ spring:
     gateway:
       routes:
         - id: chat
-          uri: http://localhost:8081
+          uri: http://localhost:8080
           predicates:
             - Path=/api/**
+          filters:
+            - StripPrefix=1
+        - id: swagger
+          uri: http://localhost:8080
+          predicates:
+            - Path=/v3/**
 
         - id: admin
           uri: http://localhost:5173
