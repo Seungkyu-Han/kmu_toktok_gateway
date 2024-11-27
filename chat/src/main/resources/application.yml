@@ -4,3 +4,6 @@ ASSISTANT_ID: ${ASSISTANT_ID}
 #springdoc:
 #  swagger-ui:
 #    path: /swagger-ui/index.html
+
+swagger:
+  url: https://kmu-toktok-admin.site/api
